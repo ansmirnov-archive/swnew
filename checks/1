@@ -1,0 +1,6 @@
+if echo $1 |grep -q -P '10\.25[45]\.\d\.254|10.25[45]\.0\.\d|172\.18\.\d\.\d'
+then 
+    show Multicast storm is occurring
+./handles/multicast.sh
+fi
+echo 123

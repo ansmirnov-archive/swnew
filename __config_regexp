@@ -1,0 +1,9 @@
+Port ([0-9]*) LBD (loop)
+./handles/loop.sh
+Configuration Testing Protocol detects a loop in port ([0-9]*)
+./handles/loop.sh
+Broadcast storm is occurring
+./handles/broadcast.sh
+
+
+
